@@ -1,0 +1,73 @@
+html,
+body {
+    height: 100%;
+}
+
+#pagina {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    width: 250;
+}
+
+#barra-pesquisa {
+    width: 582px;
+    height: 46px;
+    margin-top: 26px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    outline: 1px solid #ddd;
+    border: none;
+    border-radius: 100px;
+}
+
+#barra-pesquisa:hover {
+    box-shadow: 1px 1px 10px #ccc;
+    outline: none;
+}
+
+#barra-pesquisa > a {
+    width: 48px;
+    text-align: center;
+    color: #999;
+}
+
+#barra-pesquisa > .fa {
+    cursor: pointer;
+}
+
+#pesquisa {
+    height: 44px;
+    width: 75%;
+    border: none;
+    font-size: 12pt;
+}
+
+#pesquisa:focus {
+    border: none;
+    outline: none;
+}
+
+#butoes {
+    margin-top: 26px;
+}
+
+#butoes > button {
+    font-size: 10pt;
+    background-color: transparent;
+    border: none;
+    padding: 8px 16px;
+}
+
+#butoes > button:hover {
+    outline: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px #ccc;
+    cursor: pointer;
+}
